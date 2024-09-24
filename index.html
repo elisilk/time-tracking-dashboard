@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./script.js"></script>
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+  </head>
+  <body>
+
+    <div class="wrapper with-sidebar">
+      <header class="sidebar">
+        <div class="report-name">
+          <img class="avatar" src="images/image-jeremy.png" alt="Jeremy Robson avatar">
+          <h1>
+            <span>Report for</span> Jeremy Robson</h1>
+        </div>
+        <nav>
+          <ul class="filter-nav">
+            <li>
+              <a href="#daily" class="timeframe-btn" id="timeframe-btn--daily">Daily</a>
+            </li>
+            <li>
+              <a href="#weekly" class="timeframe-btn" id="timeframe-btn--weekly">Weekly</a>
+            </li>
+            <li>
+              <a href="#monthly" class="timeframe-btn" id="timeframe-btn--monthly" >Monthly</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main id="main" class="not-sidebar grid"></main>
+    </div>
+
+  </body>
+</html>
