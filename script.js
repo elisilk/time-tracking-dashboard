@@ -1,4 +1,4 @@
-let currentTimeframe = "daily";
+let currentTimeframe = "weekly";
 
 const main = document.getElementById("main");
 
